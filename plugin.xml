@@ -1,0 +1,19 @@
+<library path="src">
+  <class name="EmergencyStop" type="rqt_emergency_stop.emergency_stop.EmergencyStopPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A soft emergency stop button.
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>Emergency Stop Button</label>
+      <icon type="file">icon/icon.png</icon>
+    </qtgui>
+  </class>
+</library>
